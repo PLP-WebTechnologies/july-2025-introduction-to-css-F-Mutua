@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Understanding CSS Basics and Box Model</h1>
+        <p class="subtitle">A beginner introduction to CSS and the box model concept.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#intro">Intro to CSS</a></li>
+            <li><a href="#boxmodel"> The Box Model</a></li>
+            <li><a href="#examples">Examples</a></li>
+        </ul>
+    <main>
+        <section id="intro" class="card">
+            <h2>CSS</h2>
+            <p>CSS (Cascading Style Sheets) is a stylesheet language used to style web pages.  It controls colors, fonts, spacing, positioning, and responsiveness. </p>
+        </section>
+        <section class="card" id="boxmodel">
+            <h2>Box Model</h2>
+            <p>Every HTML element is considered a rectangular box, made up of:</p>
+               <ul>
+                <li><strong>Content:</strong> The actual content  such as text or images.</li>
+                <li><strong>Padding:</strong> Space between the content and the border</li>
+                <li><strong>Border:</strong> A line surrounding the padding and content.</li>
+                <li><strong>Margin:</strong> Space outside the border, separating the element from other elements.</li>
+               </ul>
+        
+        </section>
+        <section class="card" id="examples">
+            <h2>Example Styles Elements </h2>
+            <h3>Styled Button</h3>
+            <button class="primary-btn">Click Me!</button>
+        
+            <h3>Example of Box Model</h3>
+            <p>Below is a visual representation of the box model:</p>
+            <div class="box-model-example">
+                <div class="margin-layer">
+                    Margin
+                    <div class="border-layer">
+                        Border
+                        <div class="padding-layer">
+                            Padding
+                            <div class="content-layer">
+                                Content Area
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+    </main>
+    <footer>
+        <p>&copy; 2025 CSS Basics</p>
+    </footer>
+
+</html>
